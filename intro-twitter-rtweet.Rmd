@@ -4,8 +4,7 @@ subtitle: "Social Media and Web Analytics @ TiSEM"
 author: "Lachlan Deer"
 date: "Last updated: `r format(Sys.time(), '%d %B, %Y')`"
 output:
-  rmdformats::readthedown:
-    highlight: kate
+  pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -169,8 +168,6 @@ ncol(tweets_ajax)
 ```{r, cache = TRUE}
 names(tweets_ajax)
 ```
-
-I haven't printed the output here because it is quite long.
 
 ### Aside: Twitter data in it's native format
 
